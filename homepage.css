@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.icon ul li{
+    list-style: none;
+    padding: 1px 1px;
+    margin-right: 30px;
+}
+
+.textbox{
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+ul.menu{
+    list-style-type: none;
+    background-color: gray;
+    border: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.menu li{ 
+    padding: 10px;
+    border-radius: 30px;
+    margin: 0 10px;
+}
+
